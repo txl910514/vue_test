@@ -16,7 +16,7 @@ new Vue({
   router,
   render: h => h(App),
   mounted(){
-    fetch("http://192.168.190.132:2618/api/",{
+    fetch("http://10.0.1.67:2618/api/",{
       method: "POST",
       body: "userName=hhhh&password=mmmm"
     }).then((res)=>{
