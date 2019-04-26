@@ -1,6 +1,9 @@
 <template>
   <div>
     {{ msg }}
+            <div>
+            <router-link to="/home">Go to home</router-link>
+        </div>
   </div>
 </template>
 
@@ -9,7 +12,7 @@
     name: 'hello',
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        msg: 'example'
       }
     }
   }

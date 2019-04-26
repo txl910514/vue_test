@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router/init'
+import './assets/event-bus.js'
 
 /* eslint-disable no-new */
 /*new Vue({
